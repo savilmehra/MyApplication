@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+>
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+    android:background="#80bebebe">
+
+        <TextView
+                android:id="@+id/artist_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="18sp"
+                android:text="test"/>
+
+            <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rv_songs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/artist_name"
+
+            >
+
+            </android.support.v7.widget.RecyclerView>
+
+
+    </RelativeLayout>
+</layout>
